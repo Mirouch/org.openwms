@@ -31,6 +31,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @version 0.2
  * @since 0.1
  */
-interface PreferenceRepository extends JpaRepository<AbstractPreference, Long>, PreferenceRepositoryCustom {
+public interface PreferenceRepository extends JpaRepository<AbstractPreference, Long>, PreferenceRepositoryCustom {
 
 }

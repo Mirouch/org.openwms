@@ -30,6 +30,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @version 0.2
  * @since 0.1
  */
-interface ModuleDao extends JpaRepository<Module, Long> {
+public interface ModuleDao extends JpaRepository<Module, Long> {
 
 }

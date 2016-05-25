@@ -45,7 +45,7 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Transactional(propagation = Propagation.MANDATORY)
 @Repository
-class PreferenceRepositoryImpl implements PreferenceRepositoryCustom {
+public class PreferenceRepositoryImpl implements PreferenceRepositoryCustom {
 
     @PersistenceContext
     private EntityManager em;

@@ -40,7 +40,7 @@ import org.springframework.util.Assert;
  * @since 0.1
  */
 @TxService
-class ModuleServiceImpl implements ModuleService {
+public class ModuleServiceImpl implements ModuleService {
 
     @Autowired
     private ModuleDao moduleDao;

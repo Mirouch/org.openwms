@@ -58,7 +58,7 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Transactional(propagation = Propagation.MANDATORY)
 @Repository
-class XMLPreferenceDaoImpl implements PreferenceDao, ApplicationListener<ReloadFilePreferencesEvent> {
+public class XMLPreferenceDaoImpl implements PreferenceDao, ApplicationListener<ReloadFilePreferencesEvent> {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(XMLPreferenceDaoImpl.class);
     @Autowired

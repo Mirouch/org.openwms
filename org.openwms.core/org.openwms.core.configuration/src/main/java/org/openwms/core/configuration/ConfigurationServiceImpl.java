@@ -46,7 +46,7 @@ import org.springframework.validation.annotation.Validated;
  */
 @Validated
 @TxService
-class ConfigurationServiceImpl implements ConfigurationService, ApplicationListener<MergePropertiesEvent> {
+public class ConfigurationServiceImpl implements ConfigurationService, ApplicationListener<MergePropertiesEvent> {
 
     @Autowired
     private PreferenceDao fileDao;
